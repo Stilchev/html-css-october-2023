@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+    width: 1500px;
+    margin-left: 30px;
+}
+
+article, aside{
+    display: inline-block;
+    width: 700px;
+    margin: 0;
+}
+
+img{
+    max-width: 500px;
+}
+
+aside{
+    vertical-align: top;
+    max-width: 300px;
+    padding-left: 30px;
+}
