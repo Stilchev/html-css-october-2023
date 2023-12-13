@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Work+Sans:wght@400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Agbalumo';
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+section {
+    max-width: 45em;
+    margin: 0 auto;
+    background-color: #d5ebea;
+    border: 2px solid black;
+}
+
+main {
+    background-color: white;
+    display: flex;
+    padding: 2em 1em;
+}
+
+h1{
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-top: 1em;
+    margin: 0 1em;
+}
+
+h2{
+    text-align: center;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 1.3em;
+}
+
+.image-area {
+    max-width: 16em;
+    border: 1px solid black;
+    padding: 0.5em;
+}
+
+.image-area p {
+    font-size: 10px;
+    text-indent: 1.5em;
+    padding: 1.5em 0 0.5em 0;
+}
+
+.text-area{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1em;
+}
+
+.text-area p{
+    padding-top: 1.5em;
+    text-indent: 1.5em;
+    font-size: 14px;
+}
+
+.under-image-area{
+    background-color: white;
+    font-weight: 700;
+}
+
+.under-image-area p{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 0 4em;
+}
+
+.statistics{
+    padding: 0 2em;
+}
+
+.statistics p{
+    padding: 0.5em 0.5em;
+}
